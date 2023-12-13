@@ -1,4 +1,6 @@
 # 小米运动刷步数
+# cron: 44 19 * * *
+# new Env("小米运动刷步数");
 # 源地址：https://raw.githubusercontent.com/JDWXX/ql_all/master/xm/xiaomibushu.py
 
 import requests
