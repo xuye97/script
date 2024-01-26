@@ -11,7 +11,6 @@ import sys
 import json
 import random
 
-
 now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 headers = {
     'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; MI 6 MIUI/20.6.18)'
@@ -169,7 +168,7 @@ if(step == ''):
     print("未获取到环境变量中 xiaomi_step,将使用默认步数 25000 +500 ")
 
 if __name__ == '__main__':
-    cookies = cookies.split('@')
+    cookies = cookies.split('@@')
     u = 1
     for cookie in cookies:
         try:
