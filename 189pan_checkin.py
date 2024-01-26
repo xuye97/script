@@ -133,7 +133,7 @@ def main():
     if (variable_name not in ENV):
         print(variable_name + '不存在环境变量中')
         return
-    for up in os.getenv(variable_name).split('\n'):
+    for up in os.getenv(variable_name).split('&'):
         upl = up.split('#')
         if len(upl) != 2:
             print('获取配置失败')
