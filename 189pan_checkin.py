@@ -3,6 +3,9 @@
 感谢作者开源天翼云签到部分源码：
 https://github.com/t00t00-crypto/cloud189-action/blob/master/checkin.py 及 [login_function.py](https://github.com/Dawnnnnnn/Cloud189/blob/master/functions/login_function.py)
 """
+# cron: 44 7 * * *
+# new Env("189云盘签到");
+
 import time
 import os
 import re
